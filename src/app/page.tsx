@@ -7,6 +7,7 @@ import Intro from "@/components/Intro";
 import Invitation from "@/components/Invitation";
 import PhotoGallery from "@/components/PhotoGallery";
 import Location from "@/components/Location";
+import Menus from "@/components/Menus";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Metadata />
       <main>
           <Main />
+          <Menus />
           <Intro />
           <Invitation />
           <PhotoGallery />
