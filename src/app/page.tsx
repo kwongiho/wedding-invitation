@@ -2,19 +2,19 @@ import Image from "next/image";
 import Head from "next/head";
 import Script from "next/script";
 import Metadata from "@/components/Metadata";
-import Main from "@/components/Main";
+import Home from "@/components/Home";
 import Intro from "@/components/Intro";
 import Invitation from "@/components/Invitation";
 import PhotoGallery from "@/components/PhotoGallery";
 import Location from "@/components/Location";
 import Menus from "@/components/Menus";
 
-export default function Home() {
+export default function IndexPage() {
   return (
     <>
       <Metadata />
       <main>
-          <Main />
+          <Home />
           <Menus />
           <Intro />
           <Invitation />

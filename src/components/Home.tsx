@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./Main.module.css";
+import styles from "./Home.module.css";
 
-export default function Main() {
+export default function Home() {
   return (
-    <div className={styles.wrap}>
+    <div id="home" className={styles.wrap}>
       <section className={styles.info}>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-          Wonyoung & Somin
+          신랑이름 & 신부이름
         </h1>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           | WE ARE GETTING MARRIED |
